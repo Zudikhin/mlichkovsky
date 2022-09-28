@@ -642,7 +642,7 @@ body {
     opacity: 0.7;
   }
 }
-@media (min-width: 1680px) {
+@media (min-width: 1536px) {
   .about {
     padding-top: 90px;
   }
@@ -746,6 +746,7 @@ body {
     height: calc(100vh - 116.5px - 77px);
     margin-bottom: 0px;
     padding-bottom: 0px;
+    padding-top: 25px;
   }
   .services_block_head {
     margin-top: 0px;
@@ -769,7 +770,7 @@ body {
     height: 40px;
   }
 }
-@media (min-width: 1680px) {
+@media (min-width: 1536px) {
   .services {
     padding-top: 90px;
   }
@@ -928,7 +929,7 @@ body {
     line-height: 22px;
   }
 }
-@media (min-width: 1680px) {
+@media (min-width: 1536px) {
   .team {
     padding-top: 90px;
   }
@@ -1059,7 +1060,7 @@ body {
     line-height: 22px;
   }
 }
-@media (min-width: 1680px) {
+@media (min-width: 1536px) {
   .clients {
     padding-top: 90px;
   }
@@ -1281,7 +1282,7 @@ body {
 @media (min-width: 1200px) {
   .contacts {
     height: calc(100vh - 116.5px - 77px);
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 0px;
   }
   .contacts_block_head h2 {
@@ -1358,7 +1359,7 @@ body {
     margin-top: 0px;
   }
 }
-@media (min-width: 1680px) {
+@media (min-width: 1536px) {
   .contacts {
     padding-top: 90px;
   }
