@@ -354,7 +354,7 @@ body {
   background: linear-gradient(0deg, rgba(45, 49, 57, 0.7), rgba(45, 49, 57, 0.7)), url(../img/back.png);
   background-size: cover;
   background-position: 50%;
-  height: 100vh;
+  min-height: 100vh;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 210px;
@@ -959,7 +959,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 30px;
-  height: calc(100vh - 86.5px - 95px);
+  min-height: calc(100vh - 86.5px - 95px);
   -webkit-animation: 1.5s ease-out 0s slideInOpac;
           animation: 1.5s ease-out 0s slideInOpac;
 }
