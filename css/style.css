@@ -427,7 +427,7 @@ body {
     line-height: 67px;
   }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1536px) {
   .main {
     padding-top: 284px;
   }
@@ -451,11 +451,12 @@ body {
   }
 }
 .about {
-  height: calc(100vh - 86.5px - 95px);
+  min-height: calc(100vh - 86.5px - 95px);
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 30px;
+  padding-bottom: 30px;
   -webkit-animation: 1.5s ease-out 0s slideInOpac;
           animation: 1.5s ease-out 0s slideInOpac;
 }
@@ -797,13 +798,18 @@ body {
   }
 }
 .team {
-  height: calc(100vh - 86.5px - 95px);
+  min-height: calc(100vh - 86.5px - 95px);
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-top: 30px;
   -webkit-animation: 1.5s ease-out 0s slideInOpac;
           animation: 1.5s ease-out 0s slideInOpac;
+}
+.team_block {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 30px;
 }
 .team_block_head {
   display: -webkit-box;
@@ -866,6 +872,7 @@ body {
   color: #292F39;
   margin-top: 10px;
   height: 40px;
+  width: 120px;
 }
 .team_block_content_item p {
   font-weight: 400;
@@ -900,7 +907,7 @@ body {
 }
 @media (min-width: 1200px) {
   .team {
-    height: calc(100vh - 116.5px - 77px);
+    min-height: calc(100vh - 116.5px - 77px);
   }
   .team_block_head h2 {
     font-size: 36px;
@@ -927,6 +934,7 @@ body {
   .team_block_content_item h4 {
     font-size: 18px;
     line-height: 22px;
+    width: 100%;
   }
 }
 @media (min-width: 1536px) {
@@ -1380,6 +1388,8 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 15px 0px;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
 }
 .footer_wrapper_text {
   position: relative;
@@ -1435,8 +1445,8 @@ body {
 .footer_wrapper_bottom_content_left a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 16px;
   color: #FFFFFF;
 }
 .footer_wrapper_bottom_content_right {
@@ -1467,6 +1477,8 @@ body {
   -webkit-backdrop-filter: blur(0px);
           backdrop-filter: blur(0px);
   padding: 0px;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 .footer.footer_main .footer_wrapper_bottom {
   margin-top: 80px;
@@ -1506,8 +1518,8 @@ body {
             justify-content: space-between;
   }
   .footer_wrapper_bottom_content_left a {
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 14px;
+    line-height: 16px;
     margin-left: 40px;
   }
   .footer_wrapper_bottom_content_left a:first-child {
